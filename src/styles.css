@@ -68,7 +68,7 @@ section {
 }
 
 .nav-links a:hover {
-  color: #9290c3;
+  color: #ff407d;
 }
 
 .nameofweb {
@@ -97,6 +97,10 @@ section {
 .btn {
   text-align: center;
   margin-left: 10px;
+}
+
+.nav-links a.active {
+  color: #ff407d;
 }
 
 input[type='text'] {
@@ -167,7 +171,7 @@ button[type='submit']:hover {
 
 .home {
   background-color: white;
-  margin-top: 15rem;
+  margin-top: 14rem;
   margin-bottom: 20rem;
   opacity: 0;
   animation: fadeInUp 1s ease-in-out forwards;
@@ -177,7 +181,7 @@ button[type='submit']:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 100px;
+  padding: 0 240px;
 }
 
 .text-container {
@@ -238,7 +242,7 @@ button[type='submit']:hover {
 }
 
 .kota {
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-optical-sizing: auto;
   font-style: normal;
   margin-top: 25px;
@@ -248,7 +252,7 @@ button[type='submit']:hover {
   margin-bottom: 1rem;
   animation: fadeInUp 1s ease-in-out forwards;
   animation-delay: 0.8s;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -256,10 +260,8 @@ button[type='submit']:hover {
 }
 
 .wlc {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
   font-size: large;
   margin-bottom: -15px;
 }
@@ -649,7 +651,6 @@ li {
   padding-bottom: 6rem;
 }
 
-
 .back-mission {
   background-color: #f6f5f2;
   text-align: center;
@@ -668,7 +669,10 @@ li {
   opacity: 0;
   /* Initially hidden */
   transform: translateY(20px);
-  /* Start position for the animation */
+
+  .h {
+    color: #ff407d;
+  }
 }
 
 .text-mission h1,
@@ -683,6 +687,7 @@ li {
 .text-vision h1 {
   font-size: 2rem;
   padding-bottom: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .text-vision p {
@@ -694,7 +699,8 @@ li {
   color: black;
   text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ff407d;
 }
 
 .animate {
@@ -750,7 +756,7 @@ li {
   color: black;
   font-size: 2rem;
   text-align: center;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -834,14 +840,14 @@ li {
 }
 
 .rep-of-phil {
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .contact-content {
   margin-top: 30px;
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -867,13 +873,13 @@ li {
 
 .lq-emrg-htln {
   margin-bottom: 30px;
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .lq-mdrrmo {
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -888,7 +894,7 @@ li {
 
 .lq-pnp {
   margin-top: 30px;
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -903,7 +909,7 @@ li {
 
 .lq-bfp {
   margin-top: 30px;
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -916,7 +922,6 @@ li {
   text-decoration: underline;
 }
 
-
 .footer-government-links {
   text-align: left;
   margin-left: 1050px;
@@ -924,8 +929,8 @@ li {
   margin-bottom: 200px;
 }
 
-.government-links{
-  font-family: "Archivo Black", sans-serif;
+.government-links {
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }

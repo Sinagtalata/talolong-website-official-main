@@ -71,6 +71,10 @@ section {
   color: #9290c3;
 }
 
+.nav-links a.active {
+  color: #ff407d;
+}
+
 .nameofweb {
   font-weight: bolder;
   font-size: large;
@@ -248,14 +252,14 @@ button[type='submit']:hover {
 }
 
 .rep-of-phil {
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .contact-content {
   margin-top: 30px;
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -281,13 +285,13 @@ button[type='submit']:hover {
 
 .lq-emrg-htln {
   margin-bottom: 30px;
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .lq-mdrrmo {
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -302,7 +306,7 @@ button[type='submit']:hover {
 
 .lq-pnp {
   margin-top: 30px;
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -317,7 +321,7 @@ button[type='submit']:hover {
 
 .lq-bfp {
   margin-top: 30px;
-  font-family: "Archivo Black", sans-serif;
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -330,7 +334,6 @@ button[type='submit']:hover {
   text-decoration: underline;
 }
 
-
 .footer-government-links {
   text-align: left;
   margin-left: 1050px;
@@ -338,8 +341,8 @@ button[type='submit']:hover {
   margin-bottom: 200px;
 }
 
-.government-links{
-  font-family: "Archivo Black", sans-serif;
+.government-links {
+  font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -372,9 +375,9 @@ button[type='submit']:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  flex: 0 1 calc(33.33% - 20px);
+  flex: 0 1 calc(33.33% - 90px);
   margin-bottom: 20px;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -432,4 +435,33 @@ button[type='submit']:hover {
   .infog-container {
     flex: 0 1 calc(50% - 20px); /* Adjust width as needed for smaller screens */
   }
+}
+
+.population-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Adjust as needed for spacing */
+}
+
+.back-button {
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+  background-color: #666;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: -23px;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #272323;
 }
