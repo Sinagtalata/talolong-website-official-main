@@ -473,22 +473,22 @@ li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-image: url('/src/assets/img1.webp');
+  background-image: url('assets/img1.webp');
   counter-increment: item;
   background-size: cover;
   background-position: center;
 }
 
 .carousel__slide:nth-child(2) {
-  background-image: url('/src/assets/img2.webp');
+  background-image: url('assets/img2.webp');
 }
 
 .carousel__slide:nth-child(3) {
-  background-image: url('/src/assets/img3.webp');
+  background-image: url('assets/img3.webp');
 }
 
 .carousel__slide:nth-child(4) {
-  background-image: url('/src/assets/img4.webp');
+  background-image: url('assets/img4.webp');
 }
 
 .carousel__slide:before {
