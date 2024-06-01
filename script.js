@@ -19,6 +19,41 @@ document.addEventListener('DOMContentLoaded', function () {
   fadeInElements.forEach((element) => {
     observer.observe(element);
   });
+
+  const searchForm = document.querySelector('.search');
+  const searchInput = searchForm.querySelector('input[name="query"]');
+
+  searchForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    const query = searchInput.value.toLowerCase();
+    const allTextElements = document.querySelectorAll('h1, h2, h3, p, a'); // Add more selectors as needed
+
+    let found = false;
+    allTextElements.forEach((element) => {
+      const text = element.textContent.toLowerCase();
+      const index = text.indexOf(query);
+      if (index !== -1 && query.trim() !== '') {
+        const originalText = element.textContent;
+        const highlightedText =
+          originalText.substring(0, index) +
+          "<span class='highlight'>" +
+          originalText.substring(index, index + query.length) +
+          '</span>' +
+          originalText.substring(index + query.length);
+        element.innerHTML = highlightedText; // Set the new HTML
+
+        if (!found) {
+          // Only show the popup and scroll for the first match
+          alert('Match found: navigating to the content.');
+          element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          found = true;
+        }
+      }
+    });
+    if (!found) {
+      alert('No match found.');
+    }
+  });
 });
 
 document.addEventListener('DOMContentLoaded', function () {

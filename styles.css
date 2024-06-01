@@ -11,6 +11,12 @@
   font-variation-settings: 'slnt' 0;
 }
 
+.highlight {
+  background-color: yellow;
+  font-size: 1.8rem;
+  color: black;
+}
+
 body {
   grid-template-rows: 500px 100px;
   grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
