@@ -94,14 +94,15 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
 //dito nagstart, love
+// okay love iloveyou
 // Initialize the map and set its view to Barangay Talolong, Lopez, Quezon, Philippines
 var map = L.map('map').setView([13.8351, 122.2636], 13);
 
 // Set up the OSM layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
 
 // Add a marker to the map at Barangay Talolong
@@ -112,10 +113,10 @@ marker.bindPopup('<b>Barangay Talolong</b><br>Lopez, Quezon, Philippines').openP
 
 // Add a circle to the map
 var circle = L.circle([13.8351, 122.2636], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 500
+  color: 'red',
+  fillColor: '#f03',
+  fillOpacity: 0.5,
+  radius: 500,
 }).addTo(map);
 
 // Add a popup to the circle
@@ -123,9 +124,9 @@ circle.bindPopup('I am a circle.');
 
 // Add a polygon to the map
 var polygon = L.polygon([
-    [13.837, 122.261],
-    [13.833, 122.265],
-    [13.835, 122.267]
+  [13.837, 122.261],
+  [13.833, 122.265],
+  [13.835, 122.267],
 ]).addTo(map);
 
 // Add a popup to the polygon
@@ -135,10 +136,10 @@ polygon.bindPopup('I am a polygon.');
 var popup = L.popup();
 
 function onMapClick(e) {
-    popup
-        .setLatLng(e.latlng)
-        .setContent('You clicked the map at ' + e.latlng.toString())
-        .openOn(map);
+  popup
+    .setLatLng(e.latlng)
+    .setContent('You clicked the map at ' + e.latlng.toString())
+    .openOn(map);
 }
 
 map.on('click', onMapClick);
