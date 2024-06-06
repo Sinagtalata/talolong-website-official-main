@@ -1006,3 +1006,29 @@ li {
 .info {
   margin-top: 10px;
 }
+
+.tibagcave-img {
+  width: 800px;
+  height: auto;
+  padding: 0px;
+  margin-bottom: -4px;
+  display: run-in;
+}
+
+.tibagsec {
+  background-color: #F7EFE5;
+}
+
+.tc-txt-sec {
+  margin-left: 850px;
+  text-align: center;
+  padding-top: -500px;
+}
+
+.tibagcave-ttl {
+  color: black;
+}
+
+.tibagcave-desc {
+  color: black;
+}
