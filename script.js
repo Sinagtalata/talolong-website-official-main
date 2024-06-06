@@ -109,7 +109,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var marker = L.marker([13.8351, 122.2636]).addTo(map);
 
 // Add a popup to the marker
-marker.bindPopup('<b>Barangay Talolong</b><br>Lopez, Quezon, Philippines').openPopup();
+marker
+  .bindPopup(
+    '<p style="color:black;">Barangay Talolong</p><p style="color:black";>Lopez Quezon, Philippines</p>'
+  )
+  .openPopup();
 
 // Add a circle to the map
 var circle = L.circle([13.8351, 122.2636], {
