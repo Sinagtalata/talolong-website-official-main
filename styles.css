@@ -1016,13 +1016,14 @@ li {
 }
 
 .tibagsec {
-  background-color: #F7EFE5;
+  background-color: #f7efe5;
 }
 
+/* ito love binago ko */
 .tc-txt-sec {
-  margin-left: 850px;
   text-align: center;
-  padding-top: -500px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .tibagcave-ttl {
@@ -1031,4 +1032,15 @@ li {
 
 .tibagcave-desc {
   color: black;
+}
+
+/* ito love binago ko */
+.tc-img-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    margin-top: 3rem;
+  }
 }
