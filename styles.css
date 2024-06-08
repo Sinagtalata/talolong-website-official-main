@@ -1174,17 +1174,41 @@ li {
   padding: 20px;
   margin-right: 250px;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .chrch-img {
   margin-left: -8px;
   margin-top: -8px;
+  margin-bottom: -8px;
   border: 1px solid #B4B4B8;
+  display: block;
 }
 
-.OLMHRP{
-  color: black;
-  margin-left: 550px;
-  margin-top: -100px;
+.church-img {
+  flex: 1;
+  position: relative;
+}
 
+.OLMHRP {
+  color: black;
+  margin-left: 520px;
+  margin-top: -300px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: x-large;
+}
+
+.OLMHRP-2 {
+  color: black;
+  margin-left: 520px;
+  margin-top: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
 }
