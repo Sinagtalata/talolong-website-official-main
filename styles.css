@@ -1144,3 +1144,47 @@ li {
   z-index: 2;
   color: white;
 }
+
+/* new */
+.achi {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-family: 'Sedan SC', serif;
+  font-weight: bold;
+  background-color: #FF9EAA;
+}
+
+/* .achievement{
+  background-color: #FF9EAA;
+  
+} */
+
+.achieve {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-color: #FF9EAA;
+}
+
+.chrch {
+  background-color: #E3E1D9;
+  margin-left: 250px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+}
+
+.chrch-img {
+  margin-left: -8px;
+  margin-top: -8px;
+  border: 1px solid #B4B4B8;
+}
+
+.OLMHRP{
+  color: black;
+  margin-left: 550px;
+  margin-top: -100px;
+
+}
