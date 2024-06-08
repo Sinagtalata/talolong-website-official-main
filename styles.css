@@ -743,10 +743,11 @@ li {
   color: black;
   font-size: 2rem;
   text-align: center;
-  font-family: 'Lexend Deca', sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
   margin-bottom: 20px;
 }
 
@@ -1212,3 +1213,5 @@ li {
   font-style: normal;
   font-size: larger;
 }
+
+.text-document
