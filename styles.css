@@ -176,12 +176,16 @@ button[type='submit']:hover {
 }
 
 .home {
-  background-color: white;
-  margin-top: 14rem;
-  margin-bottom: 20rem;
+  background-image: url('/assets/wallhaven-455y11_1920x1080.png');
+  padding-bottom: 15.3rem;
+  padding-top: 15.3rem;
+  /* margin-top: 14rem;
+  margin-bottom: 20rem; */
   opacity: 0;
   animation: fadeInUp 1s ease-in-out forwards;
 }
+
+
 
 .title {
   display: flex;
@@ -254,6 +258,14 @@ button[type='submit']:hover {
   margin-top: 25px;
 }
 
+.kota12 {
+  font-family: 'Caveat', cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-top: 25px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
 .desc {
   margin-bottom: 1rem;
   animation: fadeInUp 1s ease-in-out forwards;
@@ -265,17 +277,30 @@ button[type='submit']:hover {
   font-size: large;
 }
 
+.desc12 {
+  margin-bottom: 1rem;
+  animation: fadeInUp 1s ease-in-out forwards;
+  animation-delay: 0.8s;
+  font-family: 'Josefin Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: large;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
 .wlc {
   font-family: 'Josefin Sans', sans-serif;
   font-optical-sizing: auto;
   font-size: large;
   margin-bottom: -15px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .int-nameofweb {
   text-align: center;
   font-family: 'Sedan SC', serif;
-  /* font-weight: bold; */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow */
 }
 
 .int-first-letter {
@@ -943,6 +968,7 @@ li {
   margin-bottom: 10rem;
 }
 
+
 .titles-section {
   color: black;
   font-size: 3rem;
@@ -956,6 +982,10 @@ li {
 .titlement {
   color: black;
   text-align: center;
+}
+
+.titlement{
+  color: #A87676;
 }
 
 .official-grid {
@@ -1213,3 +1243,5 @@ li {
   font-style: normal;
   font-size: larger;
 }
+
+.home
