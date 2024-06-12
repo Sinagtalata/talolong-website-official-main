@@ -266,7 +266,7 @@ button[type='submit']:hover {
   font-optical-sizing: auto;
   font-style: normal;
   margin-top: 25px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .desc {
@@ -289,7 +289,7 @@ button[type='submit']:hover {
   font-weight: weight;
   font-style: normal;
   font-size: large;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .wlc {
@@ -297,13 +297,14 @@ button[type='submit']:hover {
   font-optical-sizing: auto;
   font-size: large;
   margin-bottom: -15px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .int-nameofweb {
   text-align: center;
   font-family: 'Sedan SC', serif;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /* Add text shadow */
 }
 
 .int-first-letter {
@@ -999,7 +1000,7 @@ li {
   text-align: center;
 }
 
-.titlement{
+.titlement {
   color: #A87676;
 }
 
@@ -1261,9 +1262,10 @@ li {
 }
 
 .capt-mes-sec {
-  position: relative;
+  position: sticky;
   background-color: #DED0B6;
-  overflow: hidden; /* Ensure child elements are not clipped */
+  overflow: hidden;
+  /* Ensure child elements are not clipped */
 }
 
 .capt-mes-sec::before {
@@ -1272,9 +1274,13 @@ li {
   top: 0;
   left: 0;
   width: 100%;
-  height: 300px; /* Adjust the height of the gradient as needed */
-  background: linear-gradient(to bottom, rgba(101, 67, 33, 0.8), transparent); /* Gradient color: dark brown */
-  pointer-events: none; /* Ensure the gradient does not interfere with any interaction */
+  height: 300px;
+  /* Adjust the height of the gradient as needed */
+  background: linear-gradient(to bottom, rgba(101, 67, 33, 0.8), transparent);
+  /* Gradient color: dark brown */
+  pointer-events: none;
+  /* Ensure the gradient does not interfere with any interaction */
+  z-index: 2;
 }
 
 .capt-mes-sec::after {
@@ -1283,9 +1289,12 @@ li {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 300px; 
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent); /* Gradient color */
-  pointer-events: none; /* Ensure the gradient does not interfere with any interaction */
+  height: 300px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+  /* Gradient color */
+  pointer-events: none;
+  /* Ensure the gradient does not interfere with any interaction */
+  z-index: 2;
 }
 
 .capt-img {
@@ -1298,10 +1307,54 @@ li {
 .capt-mes-img {
   margin-top: -30rem;
   margin-left: 50rem;
-  width: auto;
-  height: 800px;
+  width: 800px;
+  height: auto;
 }
 
 .img-bg {
   margin-left: 14rem;
+}
+
+.capt-mes-p {
+  position: sticky;
+  z-index: 5;
+  /* padding: 20px; */
+  margin-left: 61rem;
+  margin-right: 15rem;
+  margin-top: -25rem;
+}
+
+.capt-msg-hdr{
+  color: #76453B;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
+
+.capt-msg-cont{
+  color: #76453B;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
+
+.capt-mes-div1 {
+  position: relative;
+  z-index: 1;
+  margin-top: -450px;
+}
+
+.capt-mes-div{
+  margin-left: -150px;
+  margin-top: 50px;
+}
+
+.capt-mes-prnt{
+  margin-left: -100px;
+  margin-top: 50px;
 }
