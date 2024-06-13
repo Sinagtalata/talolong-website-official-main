@@ -26,8 +26,6 @@ section {
   scroll-margin-top: 300px;
 }
 
-
-
 .nav {
   overflow: hidden;
   background-color: #222831;
@@ -461,7 +459,6 @@ button[type='submit']:hover {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  margin-top: -23px;
   border-radius: 5px;
 }
 
