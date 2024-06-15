@@ -480,3 +480,108 @@ button[type='submit']:hover {
 .back-button:hover {
   background-color: #272323;
 }
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('assets/wallhaven-pkor7e_1920x1080.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.child {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: rgba(34, 40, 49, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.child h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.child p {
+  margin-bottom: 20px;
+}
+
+.child input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  color: black;
+}
+
+.child button {
+  padding: 10px 50px;
+  font-size: 13px;
+  border: none;
+  border-radius: 100px;
+  background-color: #535c91;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#awesomeTableContainer {
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h2 {
+  text-align: center;
+  color: #333; /* Dark grey color for better readability */
+  font-family: 'Sedan SC', serif; /* Consistent with your theme */
+  font-size: 24px; /* Suitable size for a title */
+  margin-top: 10px; /* Space above the title */
+  margin-bottom: 10px; /* Space below the title */
+}
