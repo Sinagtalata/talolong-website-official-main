@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    font-variation-settings: 'slnt' 0;
+}
+
+body {
+    grid-template-rows: 500px 100px;
+    grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 300px;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #222831;
+    text-align: center;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: right;
+    font-size: 10px;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-links a {
+    display: inline-block;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    justify-content: right;
+}
+
+.nav-links a:hover {
+    color: #ff407d;
+}
+
+.nameofweb {
+    font-weight: bolder;
+    font-size: large;
+    margin-right: 360px;
+    font-family: 'Sedan SC', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-first-letter {
+    font-family: 'Sedan SC', serif;
+    font-weight: bold;
+    font-size: large;
+    color: #ff407d;
+}
+
+.search {
+    margin: 28px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+.btn {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.nav-links a.active {
+    color: #ff407d;
+}
+
+input[type='text'] {
+    padding: 10px;
+    width: 200px;
+    font-size: 12px;
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: black;
+}
+
+button[type='submit'] {
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+    border-radius: 100px;
+    background-color: #535c91;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+    background-color: #9290c3;
+}
+
+
+
+.int-first-letter {
+    font-family: 'Sedan SC', serif;
+    font-weight: bold;
+    font-size: larger;
+    color: #ff407d;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 17px 20px;
+    background-color: #222831;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer .text-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.footer .text-footer p.email:hover,
+.footer .text-footer p.address:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer .text-footer {
+        gap: 8px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
+.footer-talolong-logo-hub {
+    margin-left: -100px;
+}
+
+.footer-talolong-logo {
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
+    /* object-position: 50% 50%; */
+    margin-right: 1100px;
+    margin-top: 10px;
+}
+
+.footer_talolonghub {
+    /* margin-right: 1150px; */
+    margin-top: 10px;
+    /* justify-content: left; */
+    font-size: 20px;
+}
+
+.footer-Talolong {
+    font-family: 'Sedan SC', serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 1103px;
+}
+
+.footer-pTalolong {
+    font-family: 'Sedan SC', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-Hub {
+    font-family: 'Sedan SC', serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 1175px;
+}
+
+.footer-pHub {
+    font-family: 'Sedan SC', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-first-letter {
+    font-family: 'Sedan SC', serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #ff407d;
+}
+
+.footer-rep-phil {
+    margin-left: 250px;
+    margin-top: -150px;
+    margin-bottom: 175px;
+    text-align: left;
+}
+
+.rep-of-phil {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-content {
+    margin-top: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-telephone-no {
+    text-decoration: underline;
+}
+
+.footer-mobile-no {
+    text-decoration: underline;
+}
+
+.footer-email-link {
+    text-decoration: underline;
+}
+
+.footer-emergency-hotline {
+    margin-left: 700px;
+    margin-top: -380px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.lq-emrg-htln {
+    margin-bottom: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lq-mdrrmo {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mdrrmo-telephone-no {
+    text-decoration: underline;
+}
+
+.mdrrmo-mobile-no {
+    text-decoration: underline;
+}
+
+.lq-pnp {
+    margin-top: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pnp-telephone-no {
+    text-decoration: underline;
+}
+
+.pnp-mobile-no {
+    text-decoration: underline;
+}
+
+.lq-bfp {
+    margin-top: 30px;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bfp-telephone-no {
+    text-decoration: underline;
+}
+
+.bfp-mobile-no {
+    text-decoration: underline;
+}
+
+.footer-government-links {
+    text-align: left;
+    margin-left: 1050px;
+    margin-top: -474px;
+    margin-bottom: 200px;
+}
+
+.government-links {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.ursulum-sec {
+    background-image: url(/assets/wallhaven-dp88ol_1920x1080.png);
+    padding-top: 22.5rem;
+    padding-bottom: 15.3rem;
+    position: sticky;
+    overflow: hidden;
+}
+
+.ursulum-par-div {
+    padding-top: 7.5rem;
+    position: relative;
+}
+
+/* .ursulum-sec::before,
+.ursulum-sec::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 0; /* Ensure gradient is at a lower layer 
+} */
+
+.ursulum-sec::before {
+    /* top: 0;
+    height: 100%; /* Extend the gradient to cover the entire container 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent); */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.ursulum-sec::after {
+    /* top: 0;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent); */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.ursulum-chi-div-1 {
+    /* position: sticky; */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-left: 20rem;
+    margin-top: -19rem;
+    margin-bottom: -10rem;
+}
+
+.ursulum-img {
+    position: relative;
+    z-index: 2;
+    width: 300px;
+    height: auto;
+    margin-top: 170px;
+}
+
+.ursulum-bg-img1 {
+    width: 500px;
+    height: auto;
+    padding-top: 6rem;
+    margin-left: -29rem;
+}
+
+.ursulum-bg-info {
+    width: 550px;
+    height: auto;
+    
+}
+
+.ursulum-info {
+    margin-left: 7rem;
+    margin-top: -28rem;
+    
+}
+
+.ursulum-info-p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.ttl-info{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: medium;
+    color: #FFB1B1;
+}
+
+.cntx-info{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 139px;
+}
+
+.cntx-info1{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 153px;
+}
+
+.cntx-info2{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 91.5px;
+}
+
+.cntx-info3{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 118.9px;
+}
+
+.cntx-info4{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 30.5px;
+}
+
+.cntx-info5{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 88px;
+}
+
+.cntx-info6{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 8px;
+}
+
+.cntx-info7{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 129px;
+}
+
+.cntx-info8{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 114px;
+}
+
+.cntx-info9{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    margin-left: 89.5px;
+}
+
+.ursulum-chi-div-2{
+    margin-left: 750px;
+    margin-top: -35rem;
+}
