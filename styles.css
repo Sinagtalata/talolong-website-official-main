@@ -1119,7 +1119,7 @@ li {
   z-index: 1;
 }
 
-.talolong-mncplty > * {
+.talolong-mncplty>* {
   position: relative;
   z-index: 2;
   color: white;
@@ -1177,7 +1177,7 @@ li {
   z-index: 1;
 }
 
-.talolong-loc > * {
+.talolong-loc>* {
   position: relative;
   z-index: 2;
   color: white;
@@ -1383,4 +1383,27 @@ li {
 
 .back-button:hover {
   background-color: #272323;
+}
+
+.kota12:last-of-type span {
+  margin: left -360px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
