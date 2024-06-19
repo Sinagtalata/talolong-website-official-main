@@ -1111,7 +1111,7 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('/assets/bg4.jpg');
+  background-image: url('/assets/bg0.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1385,25 +1385,4 @@ li {
   background-color: #272323;
 }
 
-.kota12:last-of-type span {
-  margin: left -360px;
-  animation: slidein 7s infinite;
-}
-
-@keyframes showup {
-  0% {
-    opacity: 0;
-  }
-
-  20% {
-    opacity: 1;
-  }
-
-  80% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
+.talolong-mncplty
