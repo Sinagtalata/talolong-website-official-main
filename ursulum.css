@@ -364,9 +364,6 @@ button[type='submit']:hover {
 } */
 
 .ursulum-sec::before {
-    /* top: 0;
-    height: 100%; /* Extend the gradient to cover the entire container 
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent); */
     content: '';
     position: absolute;
     top: 0;
