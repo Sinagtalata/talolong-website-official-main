@@ -855,6 +855,8 @@ li {
   margin-top: 30px;
 }
 
+
+
 .service-content {
   display: flex;
   justify-content: center;
@@ -1332,7 +1334,7 @@ li {
 }
 
 .OLMHRP-2 {
-  color: black;
+  color: #45474B;
   margin-left: 520px;
   margin-top: 20px;
   font-family: 'DM Sans', sans-serif;
